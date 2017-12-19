@@ -26,24 +26,33 @@ else if (age > 18) {
 }
 
 
+let param1 = 20;
+let param2 = 10;
+const Sum1 = (param1, param2) => 20 + 10;
+console.log(20 + 10);
+
+const Sum2 = (param1, param2) => (20 + 10) / 2;
+console.log(30 / 2);
+
+const Sum3 = (param1, param2) => 20 / 10;
+console.log(20 / 10);
 
 
 
+let newProduct =
+  function (instrument, color, price) {
+    this.instrument = instrument;
+    this.color = color;
+  this.price = price;
+};
+console.log(newProduct("piano" + "black" + "1000"));
 
-// If the following invokes your function and the default value of the second parameter is 100
 
-  // totalPrice(10);
-  // This should return
+let wishlist =
+function (car, bike, boat) {
+  this.car = car;
+  this.bike = bike;
+this.boat = boat;
+};
+console.log(wishlist("Renault" + "Red" + "20,000"));
 
-  // 10000
-
-
-
-// function myBirthday(day, month, year){
-
-// let day = 11;
-// let month = "June";
-// let year = 1980;
-// let myBirthday;
-// };
-// console.log=myBirthday();
