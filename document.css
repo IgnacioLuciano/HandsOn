@@ -1,0 +1,38 @@
+.mainmenu{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightcoral;
+}
+.date {
+    justify-content: flex-start;
+}
+
+.container1{
+    display:flex;
+}
+
+.box{
+    flex: 1;   
+}
+.box1{
+    box-sizing: content-box;
+     border: solid blue 10px;
+    padding: 5px;
+ }
+  
+.box2{
+    box-sizing: content-box;
+    border: solid red 10px;
+    padding: 5px;
+   
+}
+  
+.box3{
+    box-sizing: content-box;
+    border: solid yellow 10px;
+    padding: 5px;    
+}
+
+
+
+ 
